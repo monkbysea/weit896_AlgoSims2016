@@ -8,8 +8,10 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
-
-		
+    int i;
+    int numSnowflakes;
+    vector<ofPoint> points;
+    vector<ofPoint> velocities;
     int numLines;
     int minRadius;
     int maxRadius;
