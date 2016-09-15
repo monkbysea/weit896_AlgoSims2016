@@ -8,6 +8,7 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+        
     int i;
     int numSnowflakes;
     vector<ofPoint> points;
@@ -19,6 +20,9 @@ class ofApp : public ofBaseApp{
     float distance;
     float xOffset;
     float yOffset;
+//    float rotateAngle=0;
+//    float aVelocity=0;
+//    float aAcceleration = 0.001;
     
     float alpha = ofMap(distance, minRadius, maxRadius, 50, 0);
 };
