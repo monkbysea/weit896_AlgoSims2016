@@ -36,6 +36,6 @@ class ofApp : public ofBaseApp{
     ofxFloatSlider angle;
     ofxFloatSlider step;
     
-    
+    ofSoundPlayer hoorey;
 
 };

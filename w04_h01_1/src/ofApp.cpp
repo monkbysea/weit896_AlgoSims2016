@@ -17,7 +17,10 @@ void ofApp::setup(){
 
     imgSun.load("sun.png");
     imgSpace.load("space.png");
-    
+    hoorey.load("hoorey.mp3");
+    hoorey.setVolume(0.5);
+    hoorey.play();
+    hoorey.setLoop(true);
     
 }
 
