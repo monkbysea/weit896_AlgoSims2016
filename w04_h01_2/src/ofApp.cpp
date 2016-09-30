@@ -4,8 +4,8 @@
 void ofApp::setup(){
     //setting up the grid
     
-    ptsW = 20;
-    ptsH = 20;
+    ptsW = 100;
+    ptsH = 100;
     
     for(int i = 0; i< ptsW; i++){
         for(int j = 0; j < ptsH; j++){
@@ -39,7 +39,7 @@ void ofApp::update(){
             float y = ofMap(j,0, ptsH, 0,ofGetHeight());
             
             particles[count].resetForce();
-            particles[count].addAttractionForce(ofPoint(x,y), 1000, 0.1);
+            particles[count].addAttractionForce(ofPoint(x,y), 100, 0.1);
             particles[count].addRepulsionForce(ofPoint(mouseX, mouseY), 50, 0.2);
             
             particles[count].addDampingForce();

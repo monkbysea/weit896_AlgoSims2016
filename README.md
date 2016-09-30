@@ -9,3 +9,6 @@ But I had trouble understaind what the thrid questions was asking us to do
 
 ###Week 3
 I don't know why my second one is not running. I'm trying to make a triagle bush where all the triangles are pointing towards the center of the canvas and moving as a spiral at the same time
+
+###Week 4
+Adding force creatively to my work is a challenge. I'm still experimenting with it so that I can add force to the animation that does not involve mouse position. rather the force is part of the animation by itself. 
