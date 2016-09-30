@@ -6,7 +6,7 @@ void ofApp::setup(){
     ofSetWindowShape(800,800);
     ofSetBackgroundAuto(false);
     ofSetFrameRate(30);
-    ofBackground(0);
+    ofBackground(136,210,232);
     ofSetColor(255);
     radius=5;
     alpha=255;
