@@ -16,8 +16,11 @@ Adding force creatively to my work is a challenge. I'm still experimenting with 
 
 ###Midterm 
 a sound visualizer 
+
 The shape is inspired by the sphere we did in class in 2nd week. 
 
 visual inspiration:
+
 http://www.harmogram.com/
-![image](http://screenshot.jpg)
+
+![image](screenshot.jpg)
